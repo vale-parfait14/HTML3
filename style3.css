@@ -1,0 +1,81 @@
+body{
+    background-color: whitesmoke;
+    
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+header nav div ul li a:hover{
+    background-color: grey;
+    text-decoration: overline;
+
+    
+}
+
+
+
+/*Début Partie carrousel*/
+
+
+@media screen and (max-width:680px) {
+    .car{
+        display: none;
+    }
+    
+    
+}
+
+.topna{
+    height: 25px;
+}
+.topna:hover{
+    color: white;
+    
+}
+
+
+/* Fin partie carrousel*/
+
+
+/*début partie btn article*/
+/*
+.bp{
+    width: 90px;
+    border-top-left-radius: 30px;
+}
+.bp:hover{
+    
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.bg{
+    float: right;
+    width: 90px;
+    border-bottom-right-radius: 10px; 
+
+}
+*/
+#ave:hover{
+    box-shadow: 1 5 aqua;
+    box-shadow: 0px 1px  10px blue;
+}
+
+.btb{
+justify-content: space-around;
+}
+
+main section div a{
+    text-decoration: none;
+    color: black;
+}
+
+.col:hover{
+    box-shadow: 0px 0.5px 10px black;
+}
+/*Fin partie btn article*/
+
+
+
